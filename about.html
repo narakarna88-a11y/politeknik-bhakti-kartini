@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tentang Kami — Politeknik Bhakti Kartini</title>
+<meta name="description" content="Politeknik Bhakti Kartini — kampus vokasi dengan program studi terapan, kurikulum berbasis industri, dan lulusan siap kerja." />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          pbk: {
+            bg: "#f8f7f2",
+            fg: "#0f1b2d",
+            primary: "#0e3a6e",
+            primarydark: "#082548",
+            secondary: "#e8f0fb",
+            accent: "#f5a623",
+            muted: "#6b7280",
+            border: "#e5e0d5",
+          },
+        },
+        fontFamily: {
+          display: ["Lora", "serif"],
+          sans: ["Plus Jakarta Sans", "sans-serif"],
+        },
+      },
+    },
+  };
+</script>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body class="bg-pbk-bg text-pbk-fg font-sans antialiased">
+
+<a href="#main" class="skip-link">Langsung ke konten utama</a>
+
+<!-- ================= NAVBAR ================= -->
+<header id="siteNav" class="sticky top-0 z-50 bg-pbk-bg/95 backdrop-blur transition-shadow">
+  <nav class="max-w-7xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="images/logo.png" alt="Logo Politeknik Bhakti Kartini" class="w-11 h-11 object-contain rounded-full flex-shrink-0" />
+      <div class="leading-tight">
+        <div class="font-display font-bold text-pbk-primary text-base">Politeknik Bhakti Kartini</div>
+        <div class="text-xs text-pbk-muted">Kampus Vokasi Terapan</div>
+      </div>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+      <a href="index.html" class="nav-link  text-sm pb-1">Beranda</a>
+      <a href="about.html" class="nav-link active text-sm pb-1">Tentang</a>
+      <a href="services.html" class="nav-link  text-sm pb-1">Program Studi</a>
+      <a href="gallery.html" class="nav-link  text-sm pb-1">Galeri</a>
+      <a href="contact.html" class="nav-link  text-sm pb-1">Kontak</a>
+    </div>
+
+    <a href="contact.html#pmb" class="hidden md:inline-flex items-center bg-pbk-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-pbk-primarydark transition-colors">
+      Daftar Sekarang
+    </a>
+
+    <button id="menuToggle" aria-label="Buka menu" aria-expanded="false" class="md:hidden p-2 -mr-2 text-pbk-primary">
+      <svg class="icon-open w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg class="icon-close w-7 h-7 hidden" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </nav>
+
+  <div id="mobileMenu" class="md:hidden border-t border-pbk-primary/10">
+    <div class="px-5 py-4 flex flex-col gap-4">
+      <a href="index.html" class="text-sm font-medium ">Beranda</a>
+      <a href="about.html" class="text-sm font-medium text-pbk-primary">Tentang</a>
+      <a href="services.html" class="text-sm font-medium ">Program Studi</a>
+      <a href="gallery.html" class="text-sm font-medium ">Galeri</a>
+      <a href="contact.html" class="text-sm font-medium ">Kontak</a>
+      <a href="contact.html#pmb" class="mt-2 inline-flex justify-center bg-pbk-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">Daftar Sekarang</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+
+  <!-- ================= HERO HALAMAN ================= -->
+  <section class="relative overflow-hidden paper-texture py-16 sm:py-20">
+    <div class="blob-accent w-[360px] h-[360px] -top-24 -left-24"></div>
+    <div class="max-w-5xl mx-auto px-5 sm:px-8 text-center relative reveal">
+      <span class="badge-ribbon text-pbk-accent text-xs font-bold uppercase tracking-wider justify-center">Tentang Kami</span>
+      <h1 class="font-display font-black text-4xl sm:text-5xl mt-4 mb-5">Sejarah, Visi, dan Nilai Kami</h1>
+      <p class="text-pbk-muted text-lg leading-relaxed max-w-2xl mx-auto">Perjalanan Politeknik Bhakti Kartini dalam mencetak tenaga profesional terapan yang siap menjawab kebutuhan industri.</p>
+    </div>
+  </section>
+
+  <!-- ================= SEJARAH ================= -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="reveal rounded-3xl overflow-hidden shadow-xl aspect-[4/3]">
+        <img src="images/kampus-udara.jpg" alt="Sejarah kampus Politeknik Bhakti Kartini" class="w-full h-full object-cover" loading="lazy" />
+      </div>
+      <div class="reveal reveal-delay-1">
+        <span class="badge-ribbon text-pbk-primary text-xs font-bold uppercase tracking-wider">Sejak 2020</span>
+        <h2 class="font-display font-black text-3xl sm:text-4xl mt-3 mb-5">Perjalanan Kami</h2>
+        <p class="text-pbk-muted leading-relaxed mb-4">Pada 30 Januari 2020, Politeknik Bhakti Kartini resmi berdiri berdasarkan Surat Keputusan Mendikbud RI No. 149/M/2020 serta Hasil Akreditasi Politeknik Bhakti Kartini yang resmi ditandatangani oleh Mendikbud RI.</p>
+        <p class="text-pbk-muted leading-relaxed">Politeknik Bhakti Kartini berada di bawah naungan Yayasan Amal Bhakti (YAB), yang juga menaungi SMK, Klinik, dan Rumah Sakit Bhakti Kartini.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VISI MISI ================= -->
+  <section class="py-20 bg-pbk-secondary/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="reveal bg-white rounded-2xl p-8 border border-pbk-border">
+          <div class="w-12 h-12 rounded-xl bg-pbk-primary/10 text-pbk-primary flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="font-display font-bold text-2xl mb-3">Visi</h3>
+          <p class="text-pbk-muted leading-relaxed">&ldquo;Menjadi Politeknik kebanggaan Bangsa Indonesia dengan mutu terdepan dan berwawasan global pada Tahun 2029.&rdquo;</p>
+        </div>
+        <div class="reveal reveal-delay-1 bg-white rounded-2xl p-8 border border-pbk-border">
+          <div class="w-12 h-12 rounded-xl bg-pbk-accent/15 text-pbk-accent flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-display font-bold text-2xl mb-3">Misi</h3>
+          <ul class="text-pbk-muted leading-relaxed space-y-2 list-disc list-inside">
+            <li>Perbaikan terus menerus dalam bidang pendidikan dan pengajaran.</li>
+            <li>Memberikan ruang kondusif untuk melakukan penelitian bagi seluruh civitas akademik.</li>
+            <li>Melaksanakan pengabdian nyata kepada masyarakat secara berkesinambungan.</li>
+            <li>Melaksanakan pendidikan berkesinambungan bagi Dosen dan Tenaga Kependidikan.</li>
+            <li>Menjalin hubungan strategis dan mitra kerja di seluruh dunia.</li>
+            <li>Melakukan pembaharuan berkesinambungan di bidang Teknologi Informasi dan Komunikasi.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NILAI ================= -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mb-12 reveal">
+        <span class="badge-ribbon text-pbk-primary text-xs font-bold uppercase tracking-wider">Nilai Kami</span>
+        <h2 class="font-display font-black text-3xl sm:text-4xl mt-3">Yang Kami Pegang Teguh</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="reveal text-center p-6">
+          <div class="font-display font-black text-5xl text-pbk-primary/15 mb-2">01</div>
+          <h3 class="font-bold mb-2">Integritas</h3>
+          <p class="text-sm text-pbk-muted leading-relaxed">Menjunjung kejujuran dan tanggung jawab dalam setiap proses pendidikan.</p>
+        </div>
+        <div class="reveal reveal-delay-1 text-center p-6">
+          <div class="font-display font-black text-5xl text-pbk-primary/15 mb-2">02</div>
+          <h3 class="font-bold mb-2">Kompetensi</h3>
+          <p class="text-sm text-pbk-muted leading-relaxed">Mengutamakan keterampilan praktis yang teruji dan relevan dengan industri.</p>
+        </div>
+        <div class="reveal reveal-delay-2 text-center p-6">
+          <div class="font-display font-black text-5xl text-pbk-primary/15 mb-2">03</div>
+          <h3 class="font-bold mb-2">Kolaborasi</h3>
+          <p class="text-sm text-pbk-muted leading-relaxed">Membangun kerja sama erat dengan mitra industri dan komunitas.</p>
+        </div>
+        <div class="reveal reveal-delay-3 text-center p-6">
+          <div class="font-display font-black text-5xl text-pbk-primary/15 mb-2">04</div>
+          <h3 class="font-bold mb-2">Inovasi</h3>
+          <p class="text-sm text-pbk-muted leading-relaxed">Terus beradaptasi dengan perkembangan teknologi dan kebutuhan zaman.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PIMPINAN ================= -->
+  <section class="py-20 bg-pbk-secondary/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mb-12 reveal">
+        <span class="badge-ribbon text-pbk-primary text-xs font-bold uppercase tracking-wider">Struktur Pimpinan</span>
+        <h2 class="font-display font-black text-3xl sm:text-4xl mt-3">Dipimpin oleh Para Ahli</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="reveal pbk-card bg-white rounded-2xl overflow-hidden border border-pbk-border">
+          <img src="images/direktur.png" alt="Direktur Politeknik Bhakti Kartini" class="w-full h-56 object-cover" loading="lazy" />
+          <div class="p-5">
+            <h3 class="font-bold">Yusnita Yusfik, SKM., MKM.</h3>
+            <p class="text-sm text-pbk-accent font-semibold">Direktur</p>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-1 pbk-card bg-white rounded-2xl overflow-hidden border border-pbk-border">
+          <img src="images/wakildirektur1.png" alt="Wakil Direktur Bidang I" class="w-full h-56 object-cover" loading="lazy" />
+          <div class="p-5">
+            <h3 class="font-bold">apt. Ayu Fajariyani, S.Farm., M.farm</h3>
+            <p class="text-sm text-pbk-accent font-semibold">Wakil Direktur Bidang I</p>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2 pbk-card bg-white rounded-2xl overflow-hidden border border-pbk-border">
+          <img src="images/wakildirektur2.png" alt="Wakil Direktur Bidang II" class="w-full h-56 object-cover" loading="lazy" />
+          <div class="p-5">
+            <h3 class="font-bold">Wawan Hermawansyah, S.Kom., M.M.S.I</h3>
+            <p class="text-sm text-pbk-accent font-semibold">Wakil Direktur Bidang II</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AKREDITASI ================= -->
+  <section class="py-16">
+    <div class="max-w-5xl mx-auto px-5 sm:px-8 text-center reveal">
+      <span class="badge-ribbon text-pbk-primary text-xs font-bold uppercase tracking-wider justify-center">Legalitas</span>
+      <h2 class="font-display font-black text-3xl mt-3 mb-4">Terakreditasi &amp; Diakui Secara Resmi</h2>
+      <p class="text-pbk-muted leading-relaxed max-w-2xl mx-auto">Politeknik Bhakti Kartini berada di bawah naungan Yayasan Bhakti Kartini dan seluruh program studinya telah terakreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT).</p>
+    </div>
+  </section>
+
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-pbk-primary text-white pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-3 mb-4">
+        <img src="images/logo.png" alt="Logo Politeknik Bhakti Kartini" class="w-11 h-11 object-contain rounded-full flex-shrink-0" />
+        <div class="font-display font-bold">Politeknik Bhakti Kartini</div>
+      </div>
+      <p class="text-sm text-white/70 leading-relaxed">Kampus vokasi terapan dengan kurikulum berbasis industri dan lulusan siap kerja.</p>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Program Studi</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+          <li><a href="teknologi-rekayasa-multimedia.html" class="hover:text-white">Teknologi Rekayasa Multimedia</a></li>
+          <li><a href="administrasi-rumah-sakit.html" class="hover:text-white">Administrasi Rumah Sakit</a></li>
+          <li><a href="manajemen-logistik.html" class="hover:text-white">Manajemen Logistik</a></li>
+          <li><a href="farmasi.html" class="hover:text-white">Farmasi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Tautan</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+        <li><a href="about.html" class="hover:text-white">Tentang Kami</a></li>
+        <li><a href="gallery.html" class="hover:text-white">Galeri</a></li>
+        <li><a href="contact.html" class="hover:text-white">Kontak</a></li>
+        <li><a href="contact.html#pmb" class="hover:text-white">Pendaftaran</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Kontak</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+        <li>Jl. Caringin Jembatan 14, RT.001/RW.005, Bojong Rawalumbu, Kec. Rawalumbu, Kota Bekasi, Jawa Barat 17116</li>
+        <li>(021) 8930-1234</li>
+        <li>info@pbk.ac.id</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 mt-12 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/60">
+    <p>&copy; <span class="current-year">2026</span> Politeknik Bhakti Kartini. Seluruh hak cipta dilindungi.</p>
+    <div class="flex gap-4">
+      <a href="#" aria-label="Instagram" class="hover:text-white">Instagram</a>
+      <a href="#" aria-label="YouTube" class="hover:text-white">YouTube</a>
+      <a href="#" aria-label="LinkedIn" class="hover:text-white">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Kembali ke atas" class="fixed bottom-6 right-6 z-40 bg-pbk-primary text-white w-11 h-11 rounded-full shadow-lg flex items-center justify-center hover:bg-pbk-primarydark">
+  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

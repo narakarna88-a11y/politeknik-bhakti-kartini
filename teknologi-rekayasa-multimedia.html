@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Teknologi Rekayasa Multimedia — Politeknik Bhakti Kartini</title>
+<meta name="description" content="Program sarjana terapan yang membekali mahasiswa dengan keahlian produksi konten digital, animasi, desain grafis, dan pengembangan media interaktif untuk industri kreatif masa kini." />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          pbk: {
+            bg: "#f8f7f2",
+            fg: "#0f1b2d",
+            primary: "#0e3a6e",
+            primarydark: "#082548",
+            secondary: "#e8f0fb",
+            accent: "#f5a623",
+            muted: "#6b7280",
+            border: "#e5e0d5",
+          },
+        },
+        fontFamily: {
+          display: ["Lora", "serif"],
+          sans: ["Plus Jakarta Sans", "sans-serif"],
+        },
+      },
+    },
+  };
+</script>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body class="bg-pbk-bg text-pbk-fg font-sans antialiased">
+
+<a href="#main" class="skip-link">Langsung ke konten utama</a>
+
+<!-- ================= NAVBAR ================= -->
+<header id="siteNav" class="sticky top-0 z-50 bg-pbk-bg/95 backdrop-blur transition-shadow">
+  <nav class="max-w-7xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="images/logo.png" alt="Logo Politeknik Bhakti Kartini" class="w-11 h-11 object-contain rounded-full flex-shrink-0" />
+      <div class="leading-tight">
+        <div class="font-display font-bold text-pbk-primary text-base">Politeknik Bhakti Kartini</div>
+        <div class="text-xs text-pbk-muted">Kampus Vokasi Terapan</div>
+      </div>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+      <a href="index.html" class="nav-link  text-sm pb-1">Beranda</a>
+      <a href="about.html" class="nav-link  text-sm pb-1">Tentang</a>
+      <a href="services.html" class="nav-link active text-sm pb-1">Program Studi</a>
+      <a href="gallery.html" class="nav-link  text-sm pb-1">Galeri</a>
+      <a href="contact.html" class="nav-link  text-sm pb-1">Kontak</a>
+    </div>
+
+    <a href="contact.html#pmb" class="hidden md:inline-flex items-center bg-pbk-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-pbk-primarydark transition-colors">
+      Daftar Sekarang
+    </a>
+
+    <button id="menuToggle" aria-label="Buka menu" aria-expanded="false" class="md:hidden p-2 -mr-2 text-pbk-primary">
+      <svg class="icon-open w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg class="icon-close w-7 h-7 hidden" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </nav>
+
+  <div id="mobileMenu" class="md:hidden border-t border-pbk-primary/10">
+    <div class="px-5 py-4 flex flex-col gap-4">
+      <a href="index.html" class="text-sm font-medium ">Beranda</a>
+      <a href="about.html" class="text-sm font-medium ">Tentang</a>
+      <a href="services.html" class="text-sm font-medium text-pbk-primary">Program Studi</a>
+      <a href="gallery.html" class="text-sm font-medium ">Galeri</a>
+      <a href="contact.html" class="text-sm font-medium ">Kontak</a>
+      <a href="contact.html#pmb" class="mt-2 inline-flex justify-center bg-pbk-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">Daftar Sekarang</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO DETAIL ================= -->
+  <section class="relative overflow-hidden paper-texture py-14 sm:py-16">
+    <div class="max-w-5xl mx-auto px-5 sm:px-8 relative reveal">
+      <nav class="text-xs text-pbk-muted mb-4">
+        <a href="services.html" class="hover:text-pbk-primary">Program Studi</a> / <span class="text-pbk-fg">Teknologi Rekayasa Multimedia</span>
+      </nav>
+      <span class="badge-ribbon text-pbk-accent text-xs font-bold uppercase tracking-wider">Jenjang D4 - Sarjana Terapan</span>
+      <h1 class="font-display font-black text-3xl sm:text-5xl mt-4 mb-4">Teknologi Rekayasa Multimedia</h1>
+      <p class="text-pbk-muted text-lg leading-relaxed max-w-2xl">Program sarjana terapan yang membekali mahasiswa dengan keahlian produksi konten digital, animasi, desain grafis, dan pengembangan media interaktif untuk industri kreatif masa kini.</p>
+    </div>
+  </section>
+
+  <!-- ================= DETAIL ================= -->
+  <section class="pb-20">
+    <div class="max-w-5xl mx-auto px-5 sm:px-8">
+      <div class="rounded-3xl overflow-hidden shadow-xl aspect-[16/8] mb-10 reveal">
+        <img src="images/studio-multimedia.png" onerror="this.src='images/logo.png'" alt="Teknologi Rekayasa Multimedia" class="w-full h-full object-cover" loading="lazy" />
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-10">
+        <div class="lg:col-span-2 reveal reveal-delay-1">
+          <h2 class="font-display font-bold text-2xl mb-4">Tentang Program Ini</h2>
+          <p class="text-pbk-muted leading-relaxed mb-6">Program sarjana terapan yang membekali mahasiswa dengan keahlian produksi konten digital, animasi, desain grafis, dan pengembangan media interaktif untuk industri kreatif masa kini.</p>
+          <h3 class="font-bold mb-3">Kompetensi utama</h3>
+          <ul class="list-disc list-inside text-pbk-muted leading-relaxed space-y-1"><li>Animasi 2D/3D &amp; motion graphics</li><li>Produksi video &amp; sinematografi</li><li>Desain UI/UX &amp; media interaktif</li></ul>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <div class="bg-white border border-pbk-border rounded-2xl p-6 sticky top-28">
+            <h3 class="font-bold mb-4">Informasi Program</h3>
+            <ul class="space-y-3 text-sm">
+              <li class="flex justify-between"><span class="text-pbk-muted">Jenjang</span><span class="font-semibold">D4 - Sarjana Terapan</span></li>
+              <li class="flex justify-between"><span class="text-pbk-muted">Semester</span><span class="font-semibold">8</span></li>
+              <li class="flex justify-between"><span class="text-pbk-muted">SKS</span><span class="font-semibold">144</span></li>
+              <li class="flex justify-between"><span class="text-pbk-muted">Akreditasi</span><span class="font-semibold">A</span></li>
+            </ul>
+            <a href="contact.html#pmb" class="mt-6 block text-center bg-pbk-primary text-white font-semibold px-6 py-3 rounded-full hover:bg-pbk-primarydark transition-colors">Daftar Program Ini</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM LAIN ================= -->
+  <section class="py-16 bg-pbk-secondary/50">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <h2 class="font-display font-black text-2xl sm:text-3xl mb-8 reveal">Program Studi Lainnya</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a href="administrasi-rumah-sakit.html" class="pbk-card reveal bg-white rounded-2xl overflow-hidden border border-pbk-border block">
+          <img src="images/ars-kegiatan.png" onerror="this.src='images/logo.png'" alt="Administrasi Rumah Sakit" class="w-full h-40 object-cover" loading="lazy" />
+          <div class="p-5">
+            <div class="text-xs font-bold text-pbk-accent uppercase mb-1">Jenjang D3 - Ahli Madya</div>
+            <h3 class="font-bold leading-snug">Administrasi Rumah Sakit</h3>
+          </div>
+        </a>
+        <a href="manajemen-logistik.html" class="pbk-card reveal bg-white rounded-2xl overflow-hidden border border-pbk-border block">
+          <img src="images/prodi-logistik.jpeg" onerror="this.src='images/logo.png'" alt="Manajemen Logistik" class="w-full h-40 object-cover" loading="lazy" />
+          <div class="p-5">
+            <div class="text-xs font-bold text-pbk-accent uppercase mb-1">Jenjang D3 - Ahli Madya</div>
+            <h3 class="font-bold leading-snug">Manajemen Logistik</h3>
+          </div>
+        </a>
+        <a href="farmasi.html" class="pbk-card reveal bg-white rounded-2xl overflow-hidden border border-pbk-border block">
+          <img src="images/prodi-farmasi.jpeg" onerror="this.src='images/logo.png'" alt="Farmasi" class="w-full h-40 object-cover" loading="lazy" />
+          <div class="p-5">
+            <div class="text-xs font-bold text-pbk-accent uppercase mb-1">Jenjang D3 - Ahli Madya</div>
+            <h3 class="font-bold leading-snug">Farmasi</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-pbk-primary text-white pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-3 mb-4">
+        <img src="images/logo.png" alt="Logo Politeknik Bhakti Kartini" class="w-11 h-11 object-contain rounded-full flex-shrink-0" />
+        <div class="font-display font-bold">Politeknik Bhakti Kartini</div>
+      </div>
+      <p class="text-sm text-white/70 leading-relaxed">Kampus vokasi terapan dengan kurikulum berbasis industri dan lulusan siap kerja.</p>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Program Studi</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+          <li><a href="teknologi-rekayasa-multimedia.html" class="hover:text-white">Teknologi Rekayasa Multimedia</a></li>
+          <li><a href="administrasi-rumah-sakit.html" class="hover:text-white">Administrasi Rumah Sakit</a></li>
+          <li><a href="manajemen-logistik.html" class="hover:text-white">Manajemen Logistik</a></li>
+          <li><a href="farmasi.html" class="hover:text-white">Farmasi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Tautan</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+        <li><a href="about.html" class="hover:text-white">Tentang Kami</a></li>
+        <li><a href="gallery.html" class="hover:text-white">Galeri</a></li>
+        <li><a href="contact.html" class="hover:text-white">Kontak</a></li>
+        <li><a href="contact.html#pmb" class="hover:text-white">Pendaftaran</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-4 text-sm uppercase tracking-wide">Kontak</h4>
+      <ul class="space-y-2 text-sm text-white/70">
+        <li>Jl. Caringin Jembatan 14, RT.001/RW.005, Bojong Rawalumbu, Kec. Rawalumbu, Kota Bekasi, Jawa Barat 17116</li>
+        <li>(021) 8930-1234</li>
+        <li>info@pbk.ac.id</li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 mt-12 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/60">
+    <p>&copy; <span class="current-year">2026</span> Politeknik Bhakti Kartini. Seluruh hak cipta dilindungi.</p>
+    <div class="flex gap-4">
+      <a href="#" aria-label="Instagram" class="hover:text-white">Instagram</a>
+      <a href="#" aria-label="YouTube" class="hover:text-white">YouTube</a>
+      <a href="#" aria-label="LinkedIn" class="hover:text-white">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Kembali ke atas" class="fixed bottom-6 right-6 z-40 bg-pbk-primary text-white w-11 h-11 rounded-full shadow-lg flex items-center justify-center hover:bg-pbk-primarydark">
+  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
